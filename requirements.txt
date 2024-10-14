@@ -1,3 +1,5 @@
 supervision
 ultralytics
 numpy
+roboflow
+PyYAML

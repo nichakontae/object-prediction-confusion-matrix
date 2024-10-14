@@ -5,11 +5,11 @@ import csv
 import datetime
 
 # datasets folder from Roboflow
-folder_name = "datasetsv15"
+folder_name = "data"
 
 # Construct the paths with folder_name variable
-image_path = f"./{folder_name}/test/images"
-label_path = f"./{folder_name}/test/labels"
+image_path = f"./{folder_name}/data/images"
+label_path = f"./{folder_name}/data/labels"
 data_yaml_path = f"./{folder_name}/data.yaml"
 
 # Create the dataset
