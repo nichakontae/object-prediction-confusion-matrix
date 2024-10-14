@@ -14,7 +14,7 @@ pip install -r requirements.txt
 ## Setup Instructions with `object_prediction_with_pt.py`
 
 1. **Load the Model**  
-   Download the model file (`best.pt`) and rename it as needed. Update the filename in **line 19** of the script.
+   Download the model file (`best.pt`) and rename it as needed. Update the filename in **line 19** of the script. The model `.pt` file will be in `runs/detect/train/weights/best.py`
 
 2. **Load the Datasets**  
    Download the datasets from Roboflow. The dataset should contain the following folders: `train`, `valid`, `test`, and a `data.yaml` file.  
