@@ -46,14 +46,18 @@ pip install -r requirements.txt
 
 2. **Copy Private API Key**  
    Copy the Private API Key for your project from the Roboflow dashboard.
+   <img width="1013" alt="Screenshot 2567-10-14 at 23 24 21" src="https://github.com/user-attachments/assets/0b5ececf-ba03-45c3-8f6b-6bdd89a34c1a">
 
-3. **Update the Project Name**  
+
+4. **Update the Project Name**  
    Ensure that you use the correct project name in the script, and confirm that the API key corresponds to the workspace of your current project.
 
-4. **Select the Model Version**  
+5. **Select the Model Version**  
    Choose the appropriate model version number for your project. For example, in this case, use version number `36`.
+   <img width="281" alt="Screenshot 2567-10-14 at 23 30 59" src="https://github.com/user-attachments/assets/917c74bb-6ebb-41a4-b853-819277c6bf59">
 
-5. **Run the Script**  
+
+7. **Run the Script**  
    Feel free to select your preferred confidence score.
    After making the necessary changes, run the script using the following command:
 
@@ -61,10 +65,10 @@ pip install -r requirements.txt
    python confuse.py
    ```
 
-6. **Output**  
+8. **Output**  
    The script will generate a CSV file in the format: `detection_results_<current_date_time>.csv`.
 
-7. **Run the Generated CSV in Colab**  
+9. **Run the Generated CSV in Colab**  
    Use the provided `create_confusion_matrix.ipynb` notebook in Colab to analyze the CSV file.  
    Don’t forget to upload the generated `.csv` file to Colab, and make sure to update the filename at the following line:
 
